@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form 
+    action="./01-result.html"
+    method="get"
+  >
+    <label for="name">이름</label>
+    <input id="name" name="my-name" type="text">
+
+    <br><br>
+
+    <label for="age">나이</label>
+    <input id="age" name="my-age" type="number">
+
+    <br><br>
+
+    <button type="subm">제출</button>
+    <button type="reset">초기화</button>
+  </form>
+
+  <br><br><br><br>
+
+  <h1>폼 안의 요소들 그룹으로 묶기</h1>
+  <form action="">
+    <fieldset>
+      <legend>반장</legend>
+      <label for="name_1">이름</label>
+      <input id="name_1" name="name_1" type="text">
+      <br><br>
+
+      <legend for="age_1">나이</legend>
+      <input id="age_1" name="age_1" type="number">
+    </fieldset>
+    <fieldset>
+
+    </fieldset>
+    <fieldset>
+
+    </fieldset>
+  </form>
+</body>
+</html>

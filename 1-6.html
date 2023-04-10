@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://showcases.yalco.kr/html-css/01-06/table.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1>표 만드는 법</h1>
+  <table>
+    <caption>1부터 9까지 숫자들</caption>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+    </tr>
+  </table>
+
+  <h1>구체적인 표 만드는 법</h1>
+  <table>
+    <caption>웹개발 공부 기록</caption>
+    <thead>
+      <tr>
+        <th scope="col">과목</th>
+        <th scope="col">월</th>
+        <th scope="col">화</th>
+        <th scope="col">수</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">HTML</th>
+        <td>60분</td>
+        <td>60분</td>
+        <td>0분</td>
+      </tr>
+      <tr>
+        <th scope="row">css</th>
+        <td>0분</td>
+        <td>30분</td>
+        <td>60분</td>
+      </tr>
+      <tr>
+        <th scope="row">JS</th>
+        <td>0분</td>
+        <td>60분</td>
+        <td>60분</td>
+      </tr>
+    </tbody>
+    <tfoot></tfoot>
+    <tr>
+      <th scope="row">총시간</th>
+      <td>60분</td>
+      <td>90분</td>
+      <td>120분</td>
+    </tr>
+  </table>
+
+  <h1>셀 병합 표 만들기</h1>
+  <table>
+    <tr>
+      <td>1</td>
+      <td colspan="2">2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td rowspan="3">3</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td colspan="2" rowspan="2">4</td>
+    </tr>
+    <tr>
+      <td>1</td>
+    </tr>
+  </table>
+
+
+  <h1>colgroup, col 알아보기</h1>
+  <table>
+    <colgroup>
+      <col class="weekend">
+      <col span="5">
+      <col class="weekend">
+    </colgroup>
+    <thead>
+      <tr>
+        <th>일</th>
+        <th>월</th>
+        <th>화</th>
+        <th>수</th>
+        <th>목</th>
+        <th>금</th>
+        <th>토</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+    <tr>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+  </table>
+</body>
+</html>
