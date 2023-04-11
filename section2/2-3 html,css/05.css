@@ -1,0 +1,26 @@
+p{
+  /* left, center, right, justfy */
+  text-align: left;
+
+  letter-spacing: 0;
+  word-spacing: 0;
+  line-height: 1.5em;
+}
+
+/* 들여쓰기 옵션 */
+p { text-indent: 0.8em; }
+
+
+ul {
+  list-style: circle;
+}
+
+/* li별로 지정하는 것도 가능 */
+ul > li:nth-child(2) {
+  list-style: "🚩 "
+}
+
+ol {
+  list-style: lower-alpha;
+}
+

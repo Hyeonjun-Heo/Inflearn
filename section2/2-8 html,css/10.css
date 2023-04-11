@@ -1,0 +1,20 @@
+/* 모나리자로 둥근 프로필 만들어보기 */
+/* .outer {
+  width: 200px; height: 200px;
+  background-color: #eee;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.with-bg {
+  height: 100%;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_natural_color.jpg/800px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_natural_color.jpg);
+  background-size: cover;
+} */
+
+div {
+  width: 200px; height: 200px;
+  background: 
+    linear-gradient(217deg, red, transparent 70%),
+    linear-gradient(127deg, lime, transparent 70%),
+    linear-gradient(336deg, blue, transparent 70%);
+}   
