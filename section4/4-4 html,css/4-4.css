@@ -1,0 +1,19 @@
+/* Vender Prefixes */
+/* 아직 표준화 되지 않은 css 속성들에 사용 */
+
+
+.element {
+  -webkit-transition: all 4s ease; /* 사파리, 크롬, 오페라 */
+     -moz-transition: all 4s ease; /* 파이어 폭스 */
+      -ms-transition: all 4s ease; /* 엣지, 익스플로러 */
+       -o-transition: all 4s ease; /* 구버전 오페라 */
+          transition: all 4s ease;
+}
+
+.element {
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+  background: -o-linear-gradient(top, white, black);
+  background: linear-gradient(to bottom, white, black);
+}
+
+/* 접두사가 붙지 않은 속성은 맨 마지막줄에 붙일 것 */
